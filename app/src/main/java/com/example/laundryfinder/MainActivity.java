@@ -8,9 +8,13 @@ import android.os.Bundle;
 import android.text.Html;
 import android.text.Spanned;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     Button BtnLogin;
     DBHelper dbHelper;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         TxUsername = (EditText)findViewById(R.id.txUsername);
         TxPassword = (EditText)findViewById(R.id.txPassword);
         BtnLogin = (Button)findViewById(R.id.btnLogin);
+
 
         dbHelper = new DBHelper(this);
 
@@ -68,4 +74,5 @@ public class MainActivity extends AppCompatActivity {
         }
         return result;
     }
+
 }
