@@ -104,9 +104,6 @@ public class PetaActivity extends FragmentActivity implements OnMapReadyCallback
         ready = true;
 
         // Add a marker in Sydney and move the camera
-//        LatLng sydney = new LatLng(-7.918651, 110.319640);
-//        mMap.addMarker(new MarkerOptions().position(sydney).title("Saya berada di Rumah"));
-//        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
 
         RequestQueue requestQueue = Volley.newRequestQueue(this);
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(url, new Response.Listener<JSONArray>() {
