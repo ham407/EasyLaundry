@@ -16,7 +16,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        TextView btnMaps = (TextView) findViewById(R.id.btnMaps);
+        CardView btnMaps = (CardView) findViewById(R.id.btnMaps);
         btnMaps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -24,7 +24,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        TextView btnLogout = (TextView) findViewById(R.id.btnLogout);
+        CardView btnLogout = (CardView) findViewById(R.id.btnLogout);
         btnLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

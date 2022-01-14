@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/EasyLaundry/app/src/main/res/drawable/background.xml" value="0.39010416666666664" />
         <entry key="..\:/EasyLaundry/app/src/main/res/drawable/rounded.xml" value="0.39010416666666664" />
         <entry key="..\:/EasyLaundry/app/src/main/res/layout/activity_add.xml" value="0.37395833333333334" />
         <entry key="..\:/EasyLaundry/app/src/main/res/layout/activity_login.xml" value="0.37395833333333334" />
